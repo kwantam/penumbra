@@ -5092,6 +5092,29 @@ dependencies = [
 ]
 
 [[package]]
+name = "penumbra-cometstub"
+version = "0.64.1"
+dependencies = [
+ "anyhow",
+ "cnidarium",
+ "cnidarium-component",
+ "ibc-proto",
+ "ibc-types",
+ "penumbra-app",
+ "penumbra-chain",
+ "penumbra-compact-block",
+ "penumbra-keys",
+ "penumbra-sct",
+ "penumbra-shielded-pool",
+ "penumbra-txhash",
+ "rand_chacha 0.3.1",
+ "rand_core 0.6.4",
+ "tendermint",
+ "tendermint-light-client-verifier",
+ "tokio",
+]
+
+[[package]]
 name = "penumbra-community-pool"
 version = "0.64.1"
 dependencies = [
